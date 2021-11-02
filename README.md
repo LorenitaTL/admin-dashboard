@@ -1,4 +1,4 @@
-# journal
+# admin-dashboard
 
 ## Project setup
 ```

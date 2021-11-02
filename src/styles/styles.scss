@@ -1,0 +1,33 @@
+$theme-colors: (
+  "primary":    #323232,
+  "secondary":  #4fb9bb,
+  "success":    #4caf50,
+  "info":       #e8eaf0,
+  "warning":    #ffc107,
+  "danger":     #eb5757,
+  "light":      #f8f9fa,
+  "dark":       #343a40,
+);
+
+
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+.pointer {
+  cursor: pointer;
+}
+
+.title-font{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+html,body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.avatar{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  object-fit: cover;
+}
